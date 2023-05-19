@@ -47,7 +47,7 @@ if (userDataForm) {
         form.append('email', email);
         form.append('photo', photo);
 
-        console.log(form);
+        // console.log(form);
 
         updateSettings(form, 'data');
     });

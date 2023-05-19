@@ -253,7 +253,7 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
         user.password
     );
 
-    console.log(isCorrect);
+    // console.log(isCorrect);
 
     if (!isCorrect) {
         return next(
